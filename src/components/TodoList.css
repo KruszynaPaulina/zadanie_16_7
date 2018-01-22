@@ -1,0 +1,9 @@
+ul {
+	padding: 0;
+}
+
+ul li:hover {
+	color: red;
+	cursor: pointer;
+}
+
