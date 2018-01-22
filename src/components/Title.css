@@ -1,3 +1,17 @@
 .Title {
+	color: #209d98;
 	text-align: center;
+	letter-spacing: 2px;
+	background-color: #f2f6f7;
+	font-family: "Verdana", Sans-serif;
+	width: 500px;
+	box-shadow: 3px 3px 10px #71d6c2;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 30px;
 }

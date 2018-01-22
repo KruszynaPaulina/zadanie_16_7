@@ -1,9 +1,61 @@
-ul {
-	padding: 0;
+.TodoList {
+	width: 500px;
+	background-color: #f2f6f7;
+	box-shadow: 3px 3px 10px #71d6c2;
+	margin-top: 10px;
+	box-sizing: border-box;
+	padding: 20px;
+	list-style-type: none;
 }
 
-ul li:hover {
-	color: red;
-	cursor: pointer;
+.TodoList li {
+	margin-bottom: 10px;
+	padding: 20px;
+	line-height: 30px;
 }
+
+.TodoList li:before,
+.TodoList li:after {
+	content:"";
+	display: table ;
+	clear: both;
+ }
+
+.TodoList li:nth-of-type(3n+1) {
+	background-color: #4ab9ed;
+	box-shadow: 3px 3px 10px #0073ad;
+
+}
+
+.TodoList li:nth-of-type(3n+2) {
+	background-color: #af62be;
+	box-shadow: 3px 3px 10px #5e0099;
+}
+
+.TodoList li:nth-of-type(3n+3) {
+	background-color: #e65c8c;
+	box-shadow: 3px 3px 10px #9f1052;
+}
+
+.TodoList li div {
+	float: left;
+}
+
+.TodoList li button {
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #f7565b;
+	color: #ffffff;
+	border: 2px solid #ce0000;
+	font-size: 12px;
+}
+
+.TodoList li button:hover {
+	background-color: #ce0000;
+}
+
+
+
 

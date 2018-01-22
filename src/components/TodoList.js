@@ -8,7 +8,7 @@ const TodoList = ({tasks, remove}) => {
     });
 
     return (
-        <ul>
+        <ul className={style.TodoList} >
             { todoList }
         </ul>
     );
